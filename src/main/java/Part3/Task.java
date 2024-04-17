@@ -1,6 +1,7 @@
 package Part3;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Task {
     private String owner;
@@ -47,5 +48,27 @@ public class Task {
             this.deadline = deadline;
         }
 
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Task task = (Task) o;
+        return Objects.equals(owner, task.owner) && Objects.equals(description, task.description) && Objects.equals(deadline, task.deadline);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(owner, description, deadline);
+    }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "owner='" + owner + '\'' +
+                ", description='" + description + '\'' +
+                ", deadline=" + deadline +
+                '}';
     }
 }
