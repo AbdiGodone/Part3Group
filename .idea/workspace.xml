@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="CompareTo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/DuplicateElementException.java" afterDir="false" />
+    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="2 Instance variable&#10;maxSize&#10;LinkedList&#10;BoundedPriorityQueuSet&#10;Default Constructor&#10;a parameterised Constructor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/BoundedPriorityQueuSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/BoundedPriorityQueuSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/AbdiGodone/OneDrive - Dundalk Institute of Technology/2nd year/Programming/exam2024",
+    "last_opened_file_path": "C:/Users/AbdiGodone/OneDrive - Dundalk Institute of Technology/2nd year/Data Structres/TEsts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713346919468</updated>
-      <workItem from="1713348593374" duration="4582000" />
+      <workItem from="1713348593374" duration="6601000" />
     </task>
     <task id="LOCAL-00001" summary="initail commit">
       <option name="closed" value="true" />
@@ -96,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713394753632</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DuplicateElementException">
+      <option name="closed" value="true" />
+      <created>1713395214143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713395214143</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2 Instance variable&#10;maxSize&#10;LinkedList&#10;BoundedPriorityQueuSet&#10;Default Constructor&#10;a parameterised Constructor">
+      <option name="closed" value="true" />
+      <created>1713396206658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713396206658</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +124,8 @@
     <MESSAGE value="initail commit&#10;Constructor&#10;setters &#10;getters" />
     <MESSAGE value="initail commit&#10;Constructor&#10;setters &#10;getters&#10;Equals &#10;hashcode&#10;toString" />
     <MESSAGE value="CompareTo" />
-    <option name="LAST_COMMIT_MESSAGE" value="CompareTo" />
+    <MESSAGE value="DuplicateElementException" />
+    <MESSAGE value="2 Instance variable&#10;maxSize&#10;LinkedList&#10;BoundedPriorityQueuSet&#10;Default Constructor&#10;a parameterised Constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 Instance variable&#10;maxSize&#10;LinkedList&#10;BoundedPriorityQueuSet&#10;Default Constructor&#10;a parameterised Constructor" />
   </component>
 </project>

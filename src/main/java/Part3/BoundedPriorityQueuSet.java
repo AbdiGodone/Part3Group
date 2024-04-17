@@ -13,8 +13,24 @@ public class BoundedPriorityQueuSet {
     }
 
     public BoundedPriorityQueuSet(int Maxsize) {
+        if (Maxsize <= 0){
+            throw new IllegalArgumentException("max size needs to be greater than 0");
+
+        }
+       this.BoundedPriorityQueueSet = new LinkedList<>();
         this.Maxsize = Maxsize;
     }
+
+    public int size(){
+        return BoundedPriorityQueueSet.size();
+    }
+
+    public boolean isFull(){
+        return size() == Maxsize;
+    }
+
+
+
 
 
 }
