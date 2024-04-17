@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="initail commit&#10;Constructor&#10;setters &#10;getters&#10;Equals &#10;hashcode&#10;toString">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Task.java" afterDir="false" />
+    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="CompareTo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/DuplicateElementException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713346919468</updated>
-      <workItem from="1713348593374" duration="4427000" />
+      <workItem from="1713348593374" duration="4582000" />
     </task>
     <task id="LOCAL-00001" summary="initail commit">
       <option name="closed" value="true" />
@@ -89,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713394303650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CompareTo">
+      <option name="closed" value="true" />
+      <created>1713394753632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713394753632</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +106,7 @@
     <MESSAGE value="initail commit" />
     <MESSAGE value="initail commit&#10;Constructor&#10;setters &#10;getters" />
     <MESSAGE value="initail commit&#10;Constructor&#10;setters &#10;getters&#10;Equals &#10;hashcode&#10;toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="initail commit&#10;Constructor&#10;setters &#10;getters&#10;Equals &#10;hashcode&#10;toString" />
+    <MESSAGE value="CompareTo" />
+    <option name="LAST_COMMIT_MESSAGE" value="CompareTo" />
   </component>
 </project>
