@@ -151,8 +151,8 @@ public class BoundedPriorityQueuSet {
         }
 
     /**
-     *
-     * @return the task that was removed
+     * retrieves and removes the first task of the boundedQueue linkedList, returns null if the queue is empty
+     * @return the head of the queue, null if the queue is empty
      */
     public Task poll(){
         if (BoundedPriorityQueueSet.isEmpty()){
