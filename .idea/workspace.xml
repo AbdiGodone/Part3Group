@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="2 methods &#10;remove &#10;peek">
+    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="poll method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/ManageTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/remainingTasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Part3/BoundedPriorityQueuSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/BoundedPriorityQueuSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +36,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ManageTask.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/AbdiGodone/OneDrive - Dundalk Institute of Technology/2nd year/Data Structres/Part3Group",
+    "last_opened_file_path": "C:/Users/AbdiGodone/OneDrive - Dundalk Institute of Technology/2nd year/Programming/programmingproject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +50,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ManageTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3.ManageTask" />
+      <module name="Part3Group" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ManageTask" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713346919468</updated>
       <workItem from="1713348593374" duration="13003000" />
-      <workItem from="1713461181079" duration="987000" />
+      <workItem from="1713461181079" duration="14962000" />
     </task>
     <task id="LOCAL-00001" summary="initail commit">
       <option name="closed" value="true" />
@@ -145,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713461998172</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="poll method">
+      <option name="closed" value="true" />
+      <created>1713462251002</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713462251002</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +194,7 @@
     <MESSAGE value="2 methods &#10;calcPosition&#10;add" />
     <MESSAGE value="2 methods &#10;offer&#10;Elements" />
     <MESSAGE value="2 methods &#10;remove &#10;peek" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 methods &#10;remove &#10;peek" />
+    <MESSAGE value="poll method" />
+    <option name="LAST_COMMIT_MESSAGE" value="poll method" />
   </component>
 </project>
