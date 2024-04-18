@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="poll method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/ManageTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/remainingTasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/BoundedPriorityQueuSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/BoundedPriorityQueuSet.java" afterDir="false" />
-    </list>
+    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="writetoFile&#10;java doc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713346919468</updated>
       <workItem from="1713348593374" duration="13003000" />
-      <workItem from="1713461181079" duration="14962000" />
+      <workItem from="1713461181079" duration="15306000" />
     </task>
     <task id="LOCAL-00001" summary="initail commit">
       <option name="closed" value="true" />
@@ -177,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713462251002</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="writetoFile&#10;java doc">
+      <option name="closed" value="true" />
+      <created>1713480937307</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713480937307</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +198,7 @@
     <MESSAGE value="2 methods &#10;offer&#10;Elements" />
     <MESSAGE value="2 methods &#10;remove &#10;peek" />
     <MESSAGE value="poll method" />
-    <option name="LAST_COMMIT_MESSAGE" value="poll method" />
+    <MESSAGE value="writetoFile&#10;java doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="writetoFile&#10;java doc" />
   </component>
 </project>
