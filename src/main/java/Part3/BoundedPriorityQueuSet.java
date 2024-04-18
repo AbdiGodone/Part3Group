@@ -99,6 +99,12 @@ public class BoundedPriorityQueuSet {
         return deletedValue;
         }
 
+        public Task poll(){
+        if (BoundedPriorityQueueSet.isEmpty()){
+            return null;
+        }
+        return BoundedPriorityQueueSet.poll();
+        }
 
 
 

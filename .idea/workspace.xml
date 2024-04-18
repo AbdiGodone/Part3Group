@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="2 methods &#10;offer&#10;Elements">
+    <list default="true" id="2e993c73-4dfc-4090-aa88-1c0de3427cde" name="Changes" comment="2 methods &#10;remove &#10;peek">
       <change beforePath="$PROJECT_DIR$/src/main/java/Part3/BoundedPriorityQueuSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/BoundedPriorityQueuSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713346919468</updated>
       <workItem from="1713348593374" duration="13003000" />
-      <workItem from="1713461181079" duration="628000" />
+      <workItem from="1713461181079" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="initail commit">
       <option name="closed" value="true" />
@@ -137,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713461305848</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2 methods &#10;remove &#10;peek">
+      <option name="closed" value="true" />
+      <created>1713461998172</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713461998172</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +161,7 @@
     <MESSAGE value="2 methods &#10;size &#10;isFull" />
     <MESSAGE value="2 methods &#10;calcPosition&#10;add" />
     <MESSAGE value="2 methods &#10;offer&#10;Elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 methods &#10;offer&#10;Elements" />
+    <MESSAGE value="2 methods &#10;remove &#10;peek" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 methods &#10;remove &#10;peek" />
   </component>
 </project>
