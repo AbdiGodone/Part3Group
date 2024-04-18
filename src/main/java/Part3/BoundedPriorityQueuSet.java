@@ -1,6 +1,7 @@
 package Part3;
 
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 public class BoundedPriorityQueuSet {
     private LinkedList<Task> BoundedPriorityQueueSet;
@@ -57,6 +58,31 @@ public class BoundedPriorityQueuSet {
             BoundedPriorityQueueSet.add(calcPosition(task), task);
 
         }
+
+        public boolean offer(Task task){
+
+        if (isFull()){
+            return false;
+        }
+        for (Task task1 : BoundedPriorityQueueSet){
+            if (task1.equals(task)){
+                return false;
+            }
+        }
+        BoundedPriorityQueueSet.add(calcPosition(task), task);
+
+        return true;
+        }
+
+
+        public Task Element(){
+        if (BoundedPriorityQueueSet.isEmpty()){
+            throw new NoSuchElementException("the que is empty");
+        }
+       return BoundedPriorityQueueSet.peek();
+
+        }
+
 
 
     }
