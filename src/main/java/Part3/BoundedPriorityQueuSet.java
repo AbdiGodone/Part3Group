@@ -83,6 +83,25 @@ public class BoundedPriorityQueuSet {
 
         }
 
+        public Task peek(){
+        if (BoundedPriorityQueueSet.isEmpty()){
+            return null;
+        }
+        return BoundedPriorityQueueSet.peek();
+        }
+
+        public Task remove(){
+        if (BoundedPriorityQueueSet.isEmpty()){
+            throw new NoSuchElementException("the que is empty");
+        }
+        Task deletedValue = BoundedPriorityQueueSet.peek();
+        BoundedPriorityQueueSet.remove();
+        return deletedValue;
+        }
+
+
+
+
 
 
     }
